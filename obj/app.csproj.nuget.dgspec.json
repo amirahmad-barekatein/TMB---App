@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amirahmad Barekatin\\Snappfood Project\\TMB - App\\app.csproj": {}
+    "C:\\Users\\Amirahmad Barekatin\\VS Projects\\MiareLibrary\\app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amirahmad Barekatin\\Snappfood Project\\TMB - App\\app.csproj": {
+    "C:\\Users\\Amirahmad Barekatin\\VS Projects\\MiareLibrary\\app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amirahmad Barekatin\\Snappfood Project\\TMB - App\\app.csproj",
+        "projectUniqueName": "C:\\Users\\Amirahmad Barekatin\\VS Projects\\MiareLibrary\\app.csproj",
         "projectName": "app",
-        "projectPath": "C:\\Users\\Amirahmad Barekatin\\Snappfood Project\\TMB - App\\app.csproj",
+        "projectPath": "C:\\Users\\Amirahmad Barekatin\\VS Projects\\MiareLibrary\\app.csproj",
         "packagesPath": "C:\\Users\\Amirahmad Barekatin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amirahmad Barekatin\\Snappfood Project\\TMB - App\\obj\\",
+        "outputPath": "C:\\Users\\Amirahmad Barekatin\\VS Projects\\MiareLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirahmad Barekatin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,19 +38,47 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
             },
-            "System.Data.OleDb": {
+            "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
             }
           },
           "imports": [
